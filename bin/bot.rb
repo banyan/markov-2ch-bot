@@ -26,7 +26,7 @@ unless (opts.command? and commands.include?(opts[:command]))
   exit
 end
 options = opts.to_hash(true)
-options[:env] = commands.include?(opts[:env]) ? opts[:env] : "development"
+options[:env] = envelopments.include?(opts[:env]) ? opts[:env] : "development"
 options.delete(:help)
 
 require 'pathname'
