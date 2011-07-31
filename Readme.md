@@ -35,4 +35,4 @@ Usage
     2. Configure Twitter OAuth information in config/bot.yaml
     3. Set cron 
 
-0,30 * * * * /bin/bash -l -c 'cd /path/to/markov-2ch-bot/bin && ruby bot.rb -c markov_tweet -e production'
+    0,30 * * * * /bin/bash -l -c 'cd /path/to/markov-2ch-bot/bin && ruby bot.rb -c markov_tweet -e production'
