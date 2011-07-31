@@ -4,7 +4,7 @@ Marcov-2ch-bot
 Description
 -----------
 
-Marcov-2ch-bot is an tiny Twitter Bot was made by way of trial Markov algorithm.
+Marcov-2ch-bot is a tiny Twitter Bot was made by way of trial Markov algorithm.
 
 Installation
 ------------
